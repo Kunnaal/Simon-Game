@@ -7,6 +7,6 @@ app.get('/', function(req, res) {
     res.sendFile(__dirname+'/index.html');
 });
 
-app.listen(8000 || process.env.PORT , function() {
-    console.log('Server @ '+(8000 || process.env.PORT));
+app.listen(process.env.PORT||8000, function() {
+    console.log('Server @ '+(process.env.PORT||8000));
 });

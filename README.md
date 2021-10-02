@@ -1,11 +1,11 @@
 # Simon Game
 
-Link to live app @ [Heroku](https://morning-taiga-98622.herokuapp.com/)
+Link to live app @ [Heroku](https://cryptic-citadel-93113.herokuapp.com/)
 
 __*jQuery*__ Implementation merjed with __*nodeJS & Express*__ to make app live.
 
 >Usage:
->If playing on Heroku, just press any key to start the game. Else just launch the app.js through node:
+>If playing on Heroku, just press any key to start the game. Else just launch the app.js through node & open [127.0.0.1:8000](http://127.0.0.1:8000/) in your browser
 
 ```
 node app.js
